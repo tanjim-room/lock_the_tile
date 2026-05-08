@@ -1,12 +1,3 @@
-GitHub README files only render properly when:
-
-1. The file name is exactly `README.md`
-2. The content is pasted in Markdown format
-3. You preview it on GitHub
-
-Use this exact format inside your `README.md` file:
-
-````md
 # Lock The Tile 🎮
 
 Lock The Tile is a Java Swing desktop game inspired by the classic **Shut the Box** game.
