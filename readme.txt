@@ -1,54 +1,170 @@
-How To Run This Code
-=====================
-Step-01: Extract the folder
-Step-02: Open folder in VS Code or any IDE
-Step-03: Run LockTheTile.java file
+# Lock The Tile 🎮
 
-# Lock the Tiles 🎮
+Lock The Tile is a Java Swing desktop game inspired by the classic **Shut the Box** game. The project was built using **Object-Oriented Programming (OOP)** concepts and provides a fun multiplayer experience with an interactive graphical user interface.
 
-Lock the Tiles is a Java-based desktop game built using Object-Oriented Programming (OOP) and the Swing framework. It is a digital version of the classic Shut the Box game.
+## 📌 Project Information
 
-## Overview
-Players roll two dice and select numbered tiles whose sum matches the dice value. Once selected, tiles are locked and cannot be reused.
+* **Project Name:** Lock The Tile
+* **Language:** Java
+* **Framework:** Java Swing
+* **Paradigm:** Object-Oriented Programming (OOP)
 
-The goal is to lock all tiles to win the game. If no valid moves are available, the game ends.
+---
 
-## Features
-- Random dice generation
-- Tile selection and validation
-- Tile locking system
-- Score tracking
-- Game-over detection
-- Interactive GUI using Java Swing
+# ✨ Features
 
-## Technologies Used
-- Java
-- Java Swing
-- Object-Oriented Programming (OOP)
+* 🎲 Dice rolling system
+* 🔒 Tile locking mechanism
+* 👥 Multiplayer mode (2–4 players)
+* 🤖 Play against computer mode
+* 🖥️ Interactive GUI using Java Swing
+* ✅ Input validation and exception handling
+* 🎨 Custom UI colors and fonts
+* 🏆 Winner detection system
 
-## How to Run
-1. Clone the repository:
-   git clone https://github.com/your-username/lock-the-tiles.git
+---
 
-2. Open the project in any Java IDE
+# 🧠 Game Rules
 
-3. Run the main file:
-   javac Main.java
-   java Main
+1. Players roll two dice.
+2. Players select tiles whose sum matches the dice value.
+3. Selected tiles become locked.
+4. Locked tiles cannot be reused.
+5. Players continue taking turns.
+6. The player who locks the most tiles wins.
 
-## Game Rules
-1. Roll two dice
-2. Select tiles that match the sum
-3. Tiles will be locked after selection
-4. Continue until:
-   - All tiles are locked (Win)
-   - No moves left (Game Over)
+---
 
-## Future Improvements
-- Multiplayer mode
-- Difficulty levels
-- Sound effects
-- High score system
+# 🛠️ Technologies Used
 
-## License
-This project is open-source and free to use.
+* Java
+* Java Swing
+* AWT
+* OOP Concepts
+
+  * Encapsulation
+  * Inheritance
+  * Polymorphism
+  * Abstraction
+* Exception Handling
+* ArrayList
+* Event Handling
+
+---
+
+# 📂 Project Structure
+
+```bash
+LockTheTile/
+│
+├── LockTheTile.java
+├── LockTile.java
+├── TileManage.java
+├── RollLudu.java
+├── images/
+│   ├── 1.jpg
+│   ├── 2.jpg
+│   ├── 3.jpg
+│   ├── 4.jpg
+│   ├── 5.jpg
+│   └── 6.jpg
+└── README.md
+```
+
+---
+
+# ▶️ How to Run the Project
+
+## Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/your-username/lock-the-tile.git
+```
+
+## Step 2: Open the Project
+
+Open the project using:
+
+* IntelliJ IDEA
+* Eclipse
+* NetBeans
+* VS Code with Java Extension
+
+## Step 3: Compile the Program
+
+```bash
+javac *.java
+```
+
+## Step 4: Run the Game
+
+```bash
+java LockTheTile
+```
+
+---
+
+# 🖼️ Gameplay Preview
+
+The game includes:
+
+* Player setup dialogs
+* Dice images
+* Tile selection system
+* Turn-based gameplay
+* Winner announcement
+
+You can add screenshots here later:
+
+```md
+![Gameplay Screenshot](images/screenshot.png)
+```
+
+---
+
+# 📚 Learning Outcomes
+
+This project helped in understanding:
+
+* Java GUI development
+* Event-driven programming
+* Object-oriented design
+* Game logic implementation
+* Java collections
+* Exception handling
+* User interaction design
+
+---
+
+# 🚀 Future Improvements
+
+* 🔊 Add sound effects
+* 🌐 Online multiplayer support
+* 💾 Save/load game feature
+* 🎨 Better animations and UI design
+* 📊 Scoreboard system
+* 📱 Mobile version
+
+---
+
+# 👨‍💻 Author
+
+**Md. Tanjim Arafat**
+Software Engineering Student
+
+---
+
+# ⭐ Support
+
+If you like this project:
+
+* Give it a ⭐ on GitHub
+* Fork the repository
+* Improve the project
+* Share feedback
+
+---
+
+# 📄 License
+
+This project is created for educational purposes.
